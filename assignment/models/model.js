@@ -11,7 +11,7 @@ if(process.env.MLAB_USERNAME_WEBDEV) { // check if running remotely
 }
 
 // hw6: var connectionString = 'mongodb://admin:admin@ds133964.mlab.com:33964/heroku_1gbtpnhz';
-var connectionString = 'mongodb://admin:admin@ds133856.mlab.com:33856/heroku_gdrfzfcv'
+var connectionString = 'mongodb://admin:admin@ds125565.mlab.com:25565/heroku_1v6hbq5v';
 
 var db = mongoose.connect(connectionString, { userMongoClient: true });
 module.exports = db;
