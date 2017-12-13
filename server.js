@@ -28,10 +28,10 @@ app.use(passport.session());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use('/static', express.static(path.join(__dirname, 'public')));
-app.use(express.static('public'));
-
-app.use(express.static(path.join(__dirname, 'public')));
+// app.use('/static', express.static(path.join(__dirname, 'public')));
+// app.use(express.static('public'));
+//
+// app.use(express.static(path.join(__dirname, 'public')));
 
 // Point static path to dist -- For building -- REMOVE
 app.use(express.static(path.join(__dirname, 'dist')));
